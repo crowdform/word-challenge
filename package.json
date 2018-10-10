@@ -1,0 +1,25 @@
+{
+  "name": "word-challenge",
+  "version": "1.0.0",
+  "description": "Find the longest word in the dictionary that doesn't include letters that can't be displayed on a 7 bit display.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./index.js",
+    "build": "babel ./index.js --out-dir dist",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [
+    "node",
+    "code challenge"
+  ],
+  "author": "Crowdform",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "@babel/cli": "^7.0.0-rc.1",
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/node": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1"
+  }
+}
