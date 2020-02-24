@@ -16,10 +16,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "nodemon": "^1.18.4",
     "@babel/cli": "^7.0.0-rc.1",
     "@babel/core": "^7.0.0-rc.1",
     "@babel/node": "^7.0.0-rc.1",
-    "@babel/preset-env": "^7.0.0-rc.1"
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "nodemon": "^2.0.2"
   }
 }
